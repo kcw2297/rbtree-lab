@@ -281,7 +281,7 @@ void test_rb_constraints(const key_t arr[], const size_t n) {
 
 // rbtree should manage distinct values
 void test_distinct_values() {
-  const key_t entries[] = {10, 5, 8, 34, 67, 23, 156, 24, 2, 12};
+  const key_t entries[] = {10, 5, 8, 34, 67, 23, 156, 24, 2, 12, -7, 0};
   const size_t n = sizeof(entries) / sizeof(entries[0]);
   test_rb_constraints(entries, n);
 }
